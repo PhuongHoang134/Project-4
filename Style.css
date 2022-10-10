@@ -329,9 +329,17 @@ to {
     .item12, .item18, .item24, .item30, .item36, .item42, .item48, .item54 {
         border: 2px solid #613f26;
     }
-    .item15, .item27, .item39, .item45, .item51, .item57 {
-    --num-cols: 2;
-    --row-height: auto;
+    .item15, .item27, .item45 {
+        --gap: 5px;
+        --num-cols: 2;
+        --row-height: 100.28px;
+    }
+    .item33 {
+        --gap: 5px;
+    }
+    .img-mb {
+        grid-column: span 2;
+        --row-height: 100.28px;
     }
     .item58 {
         font-size: 20px;
